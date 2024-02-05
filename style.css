@@ -1,0 +1,29 @@
+*, *::before, *::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Courier New", Courier, monospace;
+}
+
+div {
+	min-height: 100dvh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+header {
+	text-align: center;
+	padding: 1em;
+	background-color: black;
+	color: white;
+}
+
+footer {
+	text-align: right;
+	padding: 0.5em;
+	background-color: black;
+	color: white;
+}
